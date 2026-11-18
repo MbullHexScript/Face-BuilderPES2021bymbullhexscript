@@ -1,0 +1,4 @@
+
+> pes-2021-face-studio@0.1.0 typecheck
+> tsc --noEmit && tsc -p tsconfig.node.json --noEmit
+

@@ -1,0 +1,14 @@
+test_bounded_reader (test_pes_inspector.InspectorTests.test_bounded_reader) ... ok
+test_directory_is_not_scanned (test_pes_inspector.InspectorTests.test_directory_is_not_scanned) ... ok
+test_face_and_filename_not_proof (test_pes_inspector.InspectorTests.test_face_and_filename_not_proof) ... ok
+test_fmdl_descriptors_and_length_warning (test_pes_inspector.InspectorTests.test_fmdl_descriptors_and_length_warning) ... ok
+test_fpk_and_staging_hashes_no_overwrite (test_pes_inspector.InspectorTests.test_fpk_and_staging_hashes_no_overwrite) ... ok
+test_fpk_truncated_and_oob_and_bad_md5 (test_pes_inspector.InspectorTests.test_fpk_truncated_and_oob_and_bad_md5) ... ok
+test_ftex_frame_range_no_decompression (test_pes_inspector.InspectorTests.test_ftex_frame_range_no_decompression) ... ok
+test_path_policy (test_pes_inspector.InspectorTests.test_path_policy) ... ok
+test_unknown_empty_and_nonfinite_are_json_safe (test_pes_inspector.InspectorTests.test_unknown_empty_and_nonfinite_are_json_safe) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.138s
+
+OK

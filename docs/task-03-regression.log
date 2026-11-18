@@ -1,0 +1,35 @@
+
+> pes-2021-face-studio@0.1.0 test
+> playwright test
+
+[WebServer] (node:24956) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:7644) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 8 tests using 3 workers
+
+(node:7244) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:8668) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:25344) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 3 tests\viewport-core.spec.ts:15:1 › material modes preserve originals, matrices and grouped materials; disposal is exactly once (29ms)
+  ok 4 tests\viewport-core.spec.ts:48:1 › framing fits all sphere extremes in wide and narrow canvases (20ms)
+  ok 5 tests\viewport-core.spec.ts:69:1 › GLB envelope rejects truncation, bad magic, wrong sizes and external URLs (130ms)
+[WebServer] 01.20.55 [vite] (client) [console.warn] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[WebServer] 01.20.55 [vite] (client) [console.warn] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+  ok 1 tests\studio.spec.ts:3:1 › shell renders without errors and navigation is functional (1.8s)
+[WebServer] 01.20.56 [vite] (client) [console.warn] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+  ok 6 tests\studio.spec.ts:33:1 › narrow layout stays within viewport (953ms)
+  ok 2 tests\viewport.spec.ts:31:1 › real GLB import, camera presets, orbit/zoom/pan and rendered material modes (3.8s)
+[WebServer] 01.20.58 [vite] (client) [console.warn] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[WebServer] 01.20.58 [vite] (client) [console.error] THREE.GLTFLoader: Couldn't load texture blob:http://127.0.0.1:1420/547534db-c90f-447b-b0ac-20601068fe45
+  ok 7 tests\viewport.spec.ts:111:1 › invalid imports preserve the current model; external resources never fetched; replacement reframes (1.1s)
+[WebServer] 01.20.59 [vite] (client) [console.warn] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[WebServer] 01.20.59 [vite] (client) [console.warn] THREE.WebGLRenderer: WEBGL_lose_context extension not supported.
+[WebServer] 01.20.59 [vite] (client) [console.warn] THREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+  ok 8 tests\viewport.spec.ts:155:1 › WebGL context loss has a recoverable error and retains imported model (957ms)
+
+  8 passed (10.3s)

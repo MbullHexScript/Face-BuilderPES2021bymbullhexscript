@@ -1,0 +1,23 @@
+
+> pes-2021-face-studio@0.1.0 test
+> playwright test
+
+
+Running 8 tests using 3 workers
+
+(node:13148) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:16568) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:26720) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ok 3 tests\viewport-core.spec.ts:15:1 › material modes preserve originals, matrices and grouped materials; disposal is exactly once (31ms)
+  ok 4 tests\viewport-core.spec.ts:48:1 › framing fits all sphere extremes in wide and narrow canvases (28ms)
+  ok 5 tests\viewport-core.spec.ts:69:1 › GLB envelope rejects truncation, bad magic, wrong sizes and external URLs (19ms)
+  ok 1 tests\studio.spec.ts:3:1 › shell renders without errors and navigation is functional (2.2s)
+  ok 6 tests\studio.spec.ts:33:1 › narrow layout stays within viewport (1.2s)
+  ok 2 tests\viewport.spec.ts:31:1 › real GLB import, camera presets, orbit/zoom/pan and rendered material modes (4.9s)
+  ok 7 tests\viewport.spec.ts:111:1 › invalid imports preserve the current model; external resources never fetched; replacement reframes (1.6s)
+  ok 8 tests\viewport.spec.ts:155:1 › WebGL context loss has a recoverable error and retains imported model (1.4s)
+
+  8 passed (10.5s)

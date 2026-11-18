@@ -1,0 +1,3 @@
+# Keep first builds responsive on the current 16 GB Windows development machine.
+[build]
+jobs = 2

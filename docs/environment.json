@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-08",
+  "root": "D:/Projectku/Face-Builder",
+  "node": "22.19.0",
+  "npm": "11.19.0",
+  "rustc": "1.93.0",
+  "cargo": "1.93.0",
+  "python": "3.13.7",
+  "webview2": "157.0.4341.42",
+  "msvc": "Visual Studio Build Tools 2022",
+  "dependencies": {
+    "@react-three/fiber": "9.8.2",
+    "@tauri-apps/api": "2.12.4",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "three": "0.187.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.65.0",
+    "@tauri-apps/cli": "2.12.4",
+    "@types/node": "26.6.6",
+    "@types/react": "19.3.0",
+    "@types/react-dom": "19.3.0",
+    "@types/three": "0.187.0",
+    "@vitejs/plugin-react": "6.2.1",
+    "prettier": "3.9.10",
+    "typescript": "6.0.3",
+    "vite": "8.3.6"
+  }
+}

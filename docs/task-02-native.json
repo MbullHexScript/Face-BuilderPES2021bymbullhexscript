@@ -1,0 +1,16 @@
+{
+  "target": "Tauri WebView2",
+  "browser": "157.0.4341.42",
+  "url": "http://localhost:1420/",
+  "gpu": {
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "renderer": "WebKit WebGL"
+  },
+  "import": "passed: original textured GLB fixture",
+  "bounds": "2 / 3 / 1.5",
+  "cameraPresetReset": "passed",
+  "orbit": "passed",
+  "zoom": "passed",
+  "renderModes": "three different canvas captures",
+  "pageErrors": []
+}

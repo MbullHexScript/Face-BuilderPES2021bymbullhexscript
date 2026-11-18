@@ -1,0 +1,110 @@
+
+> pes-2021-face-studio@0.1.0 desktop:build
+> tauri build --no-bundle
+
+        Info Looking up installed tauri packages to check mismatched versions...
+     Running beforeBuildCommand `npm run build`
+
+> pes-2021-face-studio@0.1.0 build
+> tsc && vite build
+
+vite v8.3.6 building client environment for production...
+transforming...
+✓ 17 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.45 kB │ gzip:  0.29 kB
+dist/assets/index-DEvS35Ji.css    6.31 kB │ gzip:  2.03 kB
+dist/assets/index-9KHZByTk.js   226.83 kB │ gzip: 70.88 kB
+
+✓ built in 336ms
+   Compiling syn v3.0.9
+   Compiling phf_macros v0.13.1
+   Compiling phf v0.13.1
+   Compiling web_atoms v0.2.6
+   Compiling windows-implement v0.60.2
+   Compiling windows-interface v0.59.3
+   Compiling derive_more-impl v2.1.1
+   Compiling synstructure v0.14.0
+   Compiling darling_core v0.24.1
+   Compiling zerofrom-derive v0.1.8
+   Compiling yoke-derive v0.8.4
+   Compiling zerovec-derive v0.11.7
+   Compiling displaydoc v0.2.7
+   Compiling serde_derive v1.0.229
+   Compiling zerofrom v0.1.8
+   Compiling yoke v0.8.4
+   Compiling thiserror-impl v2.0.21
+   Compiling zerovec v0.11.9
+   Compiling tinystr v0.8.5
+   Compiling serde v1.0.229
+   Compiling thiserror v2.0.21
+   Compiling icu_locale_core v2.4.0
+   Compiling potential_utf v0.1.6
+   Compiling zerotrie v0.2.5
+   Compiling icu_collections v2.4.0
+   Compiling icu_provider v2.4.0
+   Compiling darling_macro v0.24.1
+   Compiling darling v0.24.1
+   Compiling serde_with_macros v3.24.0
+   Compiling icu_properties v2.4.0
+   Compiling icu_normalizer v2.4.0
+   Compiling idna_adapter v1.2.2
+   Compiling idna v1.1.0
+   Compiling cssparser-macros v0.7.1
+   Compiling cssparser v0.37.0
+   Compiling url v2.5.8
+   Compiling derive_more v2.1.1
+   Compiling windows-core v0.62.2
+   Compiling markup5ever v0.39.0
+   Compiling indexmap v1.9.3
+   Compiling selectors v0.38.0
+   Compiling schemars_derive v0.8.22
+   Compiling html5ever v0.39.0
+   Compiling cargo-platform v0.1.9
+   Compiling jsonptr v0.7.1
+   Compiling dom_query v0.28.0
+   Compiling json-patch v4.2.0
+   Compiling plist v1.10.3
+   Compiling schemars v0.8.22
+   Compiling cargo_metadata v0.19.2
+   Compiling urlpattern v0.6.0
+   Compiling serde_with v3.24.0
+   Compiling windows-future v0.3.2
+   Compiling tauri-utils v2.10.2
+   Compiling windows-collections v0.3.2
+   Compiling windows-numerics v0.3.1
+   Compiling time v0.3.55
+   Compiling windows v0.62.2
+   Compiling webview2-com-sys v0.39.1
+   Compiling aho-corasick v1.1.5
+   Compiling regex-syntax v0.8.11
+   Compiling regex-automata v0.4.18
+   Compiling dpi v0.1.2
+   Compiling cargo_toml v1.0.1
+   Compiling tauri-build v2.7.4
+   Compiling regex v1.13.1
+   Compiling brotli-decompressor v6.3.0
+   Compiling webview2-com-macros v0.8.1
+   Compiling toml v1.2.1+spec-1.1.0
+   Compiling webview2-com v0.39.1
+   Compiling brotli v9.1.1
+   Compiling cookie v0.18.2
+   Compiling tauri v2.12.5
+   Compiling tao v0.37.2
+   Compiling tauri-runtime v2.12.2
+   Compiling tauri-codegen v2.7.4
+   Compiling wry v0.57.1
+   Compiling softbuffer v0.4.8
+   Compiling keyboard-types v0.8.3
+   Compiling serialize-to-javascript-impl v0.1.2
+   Compiling muda v0.20.0
+   Compiling serialize-to-javascript v0.1.2
+   Compiling tauri-runtime-wry v2.12.3
+   Compiling tauri-macros v2.7.4
+   Compiling tokio v1.54.1
+   Compiling pes-face-studio v0.1.0 (D:\Projectku\Face-Builder\src-tauri)
+   Compiling serde_repr v0.1.21
+   Compiling heck v0.5.0
+    Finished `release` profile [optimized] target(s) in 6m 37s
+       Built application at: D:\Projectku\Face-Builder\src-tauri\target\release\pes-face-studio.exe

@@ -1,0 +1,16 @@
+node_modules/
+dist/
+src-tauri/target/
+src-tauri/gen/
+*.tsbuildinfo
+test-results/
+playwright-report/
+.env
+.env.*
+!.env.example
+__pycache__/
+.venv/
+.DS_Store
+# Local third-party PES assets and all derived experiments must never be committed.
+tests/fixtures/pes-face-local/
+analysis/task03/

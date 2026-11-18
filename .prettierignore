@@ -1,0 +1,7 @@
+package-lock.json
+src-tauri/target/
+src-tauri/gen/
+node_modules/
+dist/
+test-results/
+docs/*.log
